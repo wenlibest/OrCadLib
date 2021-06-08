@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : TYPE_C_12P.dra                                )
-(    Software Version : 17.4S013                                      )
-(    Date/Time        : Mon Mar 15 16:20:20 2021                      )
+(    Drawing          : SMD-IND-1211.dra                              )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Tue Jun  8 21:49:08 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = E:/PCBLib/ORCAD/LIB/Psm
-    Name      = type_c_12p.psm
+    Name      = smd-ind-1211.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 

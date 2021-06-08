@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : SMD-1040.dra                                  )
-(    Software Version : 17.2S067                                      )
-(    Date/Time        : Fri Aug 07 16:15:28 2020                      )
+(    Drawing          : SMD-CAP-10D5x8D0.dra                          )
+(    Software Version : 17.4S016                                      )
+(    Date/Time        : Tue Jun  8 21:15:09 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
-    Directory = E:/PCBLib/ORCAD/PAD/LIB/Lib
-    Name      = smd-1040.psm
+    Directory = E:/PCBLib/ORCAD/LIB/Psm
+    Name      = smd-cap-10d5x8d0.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 

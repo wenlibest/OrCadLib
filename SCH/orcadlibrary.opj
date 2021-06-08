@@ -10,45 +10,27 @@
     (DOCKING_POSITION "59420")
     (NoModify)
     (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb")
-      (Select "Design Resources" "e:\pcblib\orcad\sch\orcadlibrary.olb"))
+      (Path "Design Resources" ".\orcadlibrary.olb")
+      (Select "Design Resources" ".\orcadlibrary.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 305 0 901"))
-      (Tab 0))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 104 1471 104 594"))
-      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
-      (Package "CH340G")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 130 1497 130 620"))
-      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
-      (Package "TYPE-C-12P")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 156 1211 156 646"))
-      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
-      (Package "AMS1117-3V3")
-      (PartType "1"))
-    (Doc
-      (Type "COrPrmBrowserDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 208 1263 208 698"))
-      (Path "E:\PCBLIB\ORCAD\SCH\ORCADLIBRARY.OLB")
-      (Package "LD1117AG-33-TN3-A-R")
-      (PartType "1")))
-  (MPSSessionName "master"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 660"))
+      (Tab 0)))
+  (MPSSessionName "master")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))
