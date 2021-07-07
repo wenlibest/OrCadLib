@@ -2,16 +2,16 @@
 (                                                                     )
 (    CREATE SYMBOL                                                    )
 (                                                                     )
-(    Drawing          : DIP-2X5-2D0.dra                               )
+(    Drawing          : UFQFPN-28_4x4x05P.dra                         )
 (    Software Version : 17.4S016                                      )
-(    Date/Time        : Wed Jun 30 14:40:31 2021                      )
+(    Date/Time        : Tue Jul  6 09:36:59 2021                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
 Create Symbol of type: PACKAGE
     Directory = E:/PCBLib/ORCAD/LIB/Psm
-    Name      = dip-2x5-2d0.psm
+    Name      = ufqfpn-28_4x4x05p.psm
     User      = master
     Machine   = DESKTOP-P5LE3FE
 

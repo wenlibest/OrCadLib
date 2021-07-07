@@ -1,1 +1,1 @@
-stamp_flash-1d8.dra
+flash-6d2.dra

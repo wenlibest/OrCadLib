@@ -1,266 +1,476 @@
-\t (00:00:03) allegro 17.4 S016 Windows SPB 64-bit Edition
-\t (00:00:03)     Journal start - Tue Jun 29 22:01:19 2021
-\t (00:00:03)         Host=DESKTOP-P5LE3FE User=master Pid=45324 CPUs=4
-\t (00:00:03) CmdLine= e:\cadence\cadence\cadence_spb_17.4-2019\tools\bin\allegro.exe E:\PCBLib\ORCAD\LIB\Psm\SOT-25.dra
-\t (00:00:03) 
-   (00:00:03) Loading axlcore.cxt 
-\t (00:00:08) Opening existing design...
-\i (00:00:08) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "SOT-25"
-\d (00:00:08) Design opened: E:/PCBLib/ORCAD/LIB/Psm/SOT-25.dra
-\i (00:00:08) trapsize 894
-\i (00:00:09) trapsize 921
-\i (00:00:09) trapsize 894
-\i (00:00:09) trapsize 748
-\i (00:00:09) trapsize 1097
-\i (00:00:09) yepdesignermenuload 
-\i (00:00:10) replay D:/YepEda/YepChecker/env.scr 
-\i (00:00:10) alias ~E move 
-\i (00:00:10) funckey e move 
-\i (00:00:10) funckey E move 
-\i (00:00:10) alias ~R angle 90 
-\i (00:00:10) funckey ' ' angle 90 
-\i (00:00:10) alias ~F mirror 
-\i (00:00:10) funckey f mirror 
-\i (00:00:10) funckey F mirror 
-\i (00:00:10) alias ~N new 
-\i (00:00:10) alias ~O open 
-\i (00:00:10) alias ~S save 
-\w (00:00:10) alias ~S is marked read-only, not changed.
-\i (00:00:10) alias ~Z oops 
-\w (00:00:10) alias ~Z is marked read-only, not changed.
-\i (00:00:10) funckey z oops 
-\i (00:00:10) funckey Z oops 
-\i (00:00:10) alias ~A add connect 
-\i (00:00:10) funckey a add connect 
-\i (00:00:10) funckey A add connect 
-\i (00:00:10) alias ~Q slide 
-\i (00:00:10) funckey q slide 
-\i (00:00:10) funckey Q slide 
-\i (00:00:10) alias ~D reject 
-\i (00:00:10) alias ~W change 
-\i (00:00:10) funckey w change 
-\i (00:00:10) funckey W change 
-\i (00:00:10) alias ~@ toggle 
-\i (00:00:10) alias ~AC color 
-\i (00:00:10) alias ~G status 
-\i (00:00:10) alias ~AG status 
-\i (00:00:10) alias ~SQ 'slide;pop cut' 
-\i (00:00:10) alias ~SA 'pop singletrace' 
-\i (00:00:10) alias ~ASG 'drawing param' 
-\i (00:00:10) alias CInsert 'show measure' 
-\i (00:00:10) alias Pgup Zoom In 
-\i (00:00:10) alias Pgdown Zoom Out 
-\i (00:00:10) alias Esc Cancel 
-\i (00:00:10) alias Del Delete 
-\i (00:00:10) alias CDel 'delete;pop cut' 
-\i (00:00:10) alias SDel clinescut 
-\i (00:00:10) alias Home hilight 
-\i (00:00:10) alias End dehilight 
-\i (00:00:10) alias Insert show element 
-\i (00:00:10) alias CHome 'rats net' 
-\i (00:00:10) alias CEnd 'unrats net' 
-\i (00:00:10) alias Up iy 1 
-\i (00:00:10) alias Down iy -1 
-\i (00:00:10) alias Right ix 1 
-\i (00:00:10) alias Left ix -1 
-\i (00:00:10) alias x pick 
-\i (00:00:10) alias X pick 
-\i (00:00:10) alias y pick 0 
-\i (00:00:10) alias Y pick 0 
-\i (00:00:10) alias ix ipick 
-\i (00:00:10) alias IX ipick 
-\i (00:00:10) alias iy ipick 0 
-\i (00:00:10) alias IY ipick 0 
-\i (00:00:10) alias ip polar 
-\i (00:00:10) alias env enved 
-\i (00:00:10) alias g 'define grid' 
-\i (00:00:10) funckey 1 move 
-\i (00:00:10) funckey 2 angle 90 
-\i (00:00:10) funckey 3 mirror 
-\i (00:00:10) alias ~S1 autoplc 
-\i (00:00:10) alias CAF1 replay f1 
-\i (00:00:10) alias CAF2 replay f2 
-\i (00:00:10) alias CAF3 replay f3 
-\i (00:00:10) alias CAF4 replay f4 
-\i (00:00:10) alias CAF5 replay f5 
-\i (00:00:10) alias CAF6 replay f6 
-\i (00:00:10) alias CAF7 replay f7 
-\i (00:00:10) alias CAF8 replay f8 
-\i (00:00:10) alias CAF9 replay f9 
-\i (00:00:10) alias CAF10 replay f10 
-\i (00:00:10) alias CAF11 replay f11 
-\i (00:00:10) alias CAF12 replay f12 
-\i (00:00:10) alias F2 'setlayer MyLayer1' 
-\i (00:00:10) alias F3 'setlayer MyLayer2' 
-\i (00:00:10) alias F4 'setlayer MyLayer3' 
-\i (00:00:10) alias F5 'setlayer MyLayer4' 
-\i (00:00:10) alias F6 'setlayer MyLayer5' 
-\i (00:00:10) alias F7 'setlayer MyLayer6' 
-\i (00:00:10) alias F8 'setlayer MyLayer7' 
-\i (00:00:10) alias F10 plctools 
-\i (00:00:10) alias F12 'property edit' 
-\i (00:00:10) alias SF2 'savelayer MyLayer1' 
-\i (00:00:10) alias SF3 'savelayer MyLayer2' 
-\i (00:00:10) alias SF4 'savelayer MyLayer3' 
-\i (00:00:10) alias SF5 'savelayer MyLayer4' 
-\i (00:00:10) alias SF6 'savelayer MyLayer5' 
-\i (00:00:10) alias SF7 'savelayer MyLayer6' 
-\i (00:00:10) alias SF8 'savelayer MyLayer7' 
-\i (00:00:10) alias SF11 fanoutbypackage 
-\i (00:00:10) alias CF11 packagetofanout 
-\i (00:00:10) alias CF12 'identify nets' 
-\i (00:00:10) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
-\i (00:00:10) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
-\i (00:00:10) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
-\i (00:00:10) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
-\i (00:00:10) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
-\i (00:00:10) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
-\i (00:00:10) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
-\i (00:00:10) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
-\i (00:00:10) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
-\i (00:00:10) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
-\i (00:00:10) set GLOBAL = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set ALIBPATH = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/pcb_lib 
-\i (00:00:10) set COMPLIBPATH = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/allegrolib 
-\i (00:00:10) set GLOBALPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set ADSPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set FORMPATH = . C:/Users/master/pcbenv/forms e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/forms 
-\i (00:00:10) set MENUPATH = . C:/Users/master/pcbenv/cuimenus e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/cuimenus 
-\i (00:00:10) set UNITS = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/units.dat 
-\i (00:00:10) set BMPPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/icons 
-\i (00:00:10) set RESOURCE = resource 
-\i (00:00:10) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/configure/prfedit 
-\e (00:00:10) CDSROOT: Variable not defined
-\e (00:00:10) Parse error in file D:/YepEda/YepChecker/env.scr, line 141
-\i (00:00:10) trapsize 1097
-\i (00:00:10) button wheel_up zoom in 1 
-\i (00:00:10) button wheel_down zoom out 1 
-\i (00:00:10) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
-\i (00:00:10) set no_dragpopup 
-\i (00:00:10) yepdesignermenuload 
-\i (00:00:10) replay D:/YepEda/YepChecker/env.scr 
-\i (00:00:10) alias ~E move 
-\i (00:00:10) funckey e move 
-\i (00:00:10) funckey E move 
-\i (00:00:10) alias ~R angle 90 
-\i (00:00:10) funckey ' ' angle 90 
-\i (00:00:10) alias ~F mirror 
-\i (00:00:10) funckey f mirror 
-\i (00:00:10) funckey F mirror 
-\i (00:00:10) alias ~N new 
-\i (00:00:10) alias ~O open 
-\i (00:00:10) alias ~S save 
-\w (00:00:10) alias ~S is marked read-only, not changed.
-\i (00:00:10) alias ~Z oops 
-\w (00:00:10) alias ~Z is marked read-only, not changed.
-\i (00:00:10) funckey z oops 
-\i (00:00:10) funckey Z oops 
-\i (00:00:10) alias ~A add connect 
-\i (00:00:10) funckey a add connect 
-\i (00:00:10) funckey A add connect 
-\i (00:00:10) alias ~Q slide 
-\i (00:00:10) funckey q slide 
-\i (00:00:10) funckey Q slide 
-\i (00:00:10) alias ~D reject 
-\i (00:00:10) alias ~W change 
-\i (00:00:10) funckey w change 
-\i (00:00:10) funckey W change 
-\i (00:00:10) alias ~@ toggle 
-\i (00:00:10) alias ~AC color 
-\i (00:00:10) alias ~G status 
-\i (00:00:10) alias ~AG status 
-\i (00:00:10) alias ~SQ 'slide;pop cut' 
-\i (00:00:10) alias ~SA 'pop singletrace' 
-\i (00:00:10) alias ~ASG 'drawing param' 
-\i (00:00:10) alias CInsert 'show measure' 
-\i (00:00:10) alias Pgup Zoom In 
-\i (00:00:10) alias Pgdown Zoom Out 
-\i (00:00:10) alias Esc Cancel 
-\i (00:00:10) alias Del Delete 
-\i (00:00:10) alias CDel 'delete;pop cut' 
-\i (00:00:10) alias SDel clinescut 
-\i (00:00:10) alias Home hilight 
-\i (00:00:10) alias End dehilight 
-\i (00:00:10) alias Insert show element 
-\i (00:00:10) alias CHome 'rats net' 
-\i (00:00:10) alias CEnd 'unrats net' 
-\i (00:00:10) alias Up iy 1 
-\i (00:00:10) alias Down iy -1 
-\i (00:00:10) alias Right ix 1 
-\i (00:00:10) alias Left ix -1 
-\i (00:00:10) alias x pick 
-\i (00:00:10) alias X pick 
-\i (00:00:10) alias y pick 0 
-\i (00:00:10) alias Y pick 0 
-\i (00:00:10) alias ix ipick 
-\i (00:00:10) alias IX ipick 
-\i (00:00:10) alias iy ipick 0 
-\i (00:00:10) alias IY ipick 0 
-\i (00:00:10) alias ip polar 
-\i (00:00:10) alias env enved 
-\i (00:00:10) alias g 'define grid' 
-\i (00:00:10) funckey 1 move 
-\i (00:00:10) funckey 2 angle 90 
-\i (00:00:10) funckey 3 mirror 
-\i (00:00:10) alias ~S1 autoplc 
-\i (00:00:10) alias CAF1 replay f1 
-\i (00:00:10) alias CAF2 replay f2 
-\i (00:00:10) alias CAF3 replay f3 
-\i (00:00:10) alias CAF4 replay f4 
-\i (00:00:10) alias CAF5 replay f5 
-\i (00:00:10) alias CAF6 replay f6 
-\i (00:00:10) alias CAF7 replay f7 
-\i (00:00:10) alias CAF8 replay f8 
-\i (00:00:10) alias CAF9 replay f9 
-\i (00:00:10) alias CAF10 replay f10 
-\i (00:00:10) alias CAF11 replay f11 
-\i (00:00:10) alias CAF12 replay f12 
-\i (00:00:10) alias F2 'setlayer MyLayer1' 
-\i (00:00:10) alias F3 'setlayer MyLayer2' 
-\i (00:00:10) alias F4 'setlayer MyLayer3' 
-\i (00:00:10) alias F5 'setlayer MyLayer4' 
-\i (00:00:10) alias F6 'setlayer MyLayer5' 
-\i (00:00:10) alias F7 'setlayer MyLayer6' 
-\i (00:00:10) alias F8 'setlayer MyLayer7' 
-\i (00:00:10) alias F10 plctools 
-\i (00:00:10) alias F12 'property edit' 
-\i (00:00:10) alias SF2 'savelayer MyLayer1' 
-\i (00:00:10) alias SF3 'savelayer MyLayer2' 
-\i (00:00:10) alias SF4 'savelayer MyLayer3' 
-\i (00:00:10) alias SF5 'savelayer MyLayer4' 
-\i (00:00:10) alias SF6 'savelayer MyLayer5' 
-\i (00:00:10) alias SF7 'savelayer MyLayer6' 
-\i (00:00:10) alias SF8 'savelayer MyLayer7' 
-\i (00:00:10) alias SF11 fanoutbypackage 
-\i (00:00:10) alias CF11 packagetofanout 
-\i (00:00:10) alias CF12 'identify nets' 
-\i (00:00:10) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
-\i (00:00:10) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
-\i (00:00:10) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
-\i (00:00:10) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
-\i (00:00:10) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
-\i (00:00:10) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
-\i (00:00:10) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
-\i (00:00:10) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
-\i (00:00:10) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
-\i (00:00:10) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
-\i (00:00:10) set GLOBAL = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set ALIBPATH = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/pcb_lib 
-\i (00:00:10) set COMPLIBPATH = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/allegrolib 
-\i (00:00:10) set GLOBALPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set ADSPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text 
-\i (00:00:10) set FORMPATH = . C:/Users/master/pcbenv/forms e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/forms 
-\i (00:00:10) set MENUPATH = . C:/Users/master/pcbenv/cuimenus e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/cuimenus 
-\i (00:00:10) set UNITS = e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/units.dat 
-\i (00:00:10) set BMPPATH = . e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/text/icons 
-\i (00:00:10) set RESOURCE = resource 
-\i (00:00:10) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit e:/cadence/cadence/cadence_spb_17.4-2019/share/pcb/configure/prfedit 
-\e (00:00:10) CDSROOT: Variable not defined
-\e (00:00:10) Parse error in file D:/YepEda/YepChecker/env.scr, line 141
-\i (00:00:10) trapsize 1097
-\i (00:00:10) button wheel_up zoom in 1 
-\i (00:00:10) button wheel_down zoom out 1 
-\i (00:00:10) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
-\i (00:00:10) set no_dragpopup 
-\i (00:00:13) exit 
-\t (00:00:14)     Journal end - Tue Jun 29 22:01:30 2021
+\t (00:00:26) allegro 17.4 S016 Windows SPB 64-bit Edition
+\t (00:00:26)     Journal start - Wed Jul  7 20:22:04 2021
+\t (00:00:26)         Host=DESKTOP-P5LE3FE User=master Pid=5324 CPUs=4
+\t (00:00:26) CmdLine= E:\Cadence\Cadence\Cadence_SPB_17.4-2019\tools\bin\allegro.exe
+\t (00:00:26) 
+\d (00:00:26) Design opened: E:/PCBLib/ORCAD/LIB/Psm/UB482.dra
+\i (00:00:26) trapsize 1463
+\i (00:00:26) yepdesignermenuload 
+\i (00:00:27) replay D:/YepEda/YepChecker/env.scr 
+\i (00:00:27) alias ~E move 
+\i (00:00:27) funckey e move 
+\i (00:00:27) funckey E move 
+\i (00:00:27) alias ~R angle 90 
+\i (00:00:27) funckey ' ' angle 90 
+\i (00:00:27) alias ~F mirror 
+\i (00:00:27) funckey f mirror 
+\i (00:00:27) funckey F mirror 
+\i (00:00:27) alias ~N new 
+\i (00:00:27) alias ~O open 
+\i (00:00:27) alias ~S save 
+\w (00:00:27) alias ~S is marked read-only, not changed.
+\i (00:00:27) alias ~Z oops 
+\w (00:00:27) alias ~Z is marked read-only, not changed.
+\i (00:00:27) funckey z oops 
+\i (00:00:27) funckey Z oops 
+\i (00:00:27) alias ~A add connect 
+\i (00:00:27) funckey a add connect 
+\i (00:00:27) funckey A add connect 
+\i (00:00:27) alias ~Q slide 
+\i (00:00:27) funckey q slide 
+\i (00:00:27) funckey Q slide 
+\i (00:00:27) alias ~D reject 
+\i (00:00:27) alias ~W change 
+\i (00:00:27) funckey w change 
+\i (00:00:27) funckey W change 
+\i (00:00:27) alias ~@ toggle 
+\i (00:00:27) alias ~AC color 
+\i (00:00:27) alias ~G status 
+\i (00:00:27) alias ~AG status 
+\i (00:00:27) alias ~SQ 'slide;pop cut' 
+\i (00:00:27) alias ~SA 'pop singletrace' 
+\i (00:00:27) alias ~ASG 'drawing param' 
+\i (00:00:27) alias CInsert 'show measure' 
+\i (00:00:27) alias Pgup Zoom In 
+\i (00:00:27) alias Pgdown Zoom Out 
+\i (00:00:27) alias Esc Cancel 
+\i (00:00:27) alias Del Delete 
+\i (00:00:27) alias CDel 'delete;pop cut' 
+\i (00:00:27) alias SDel clinescut 
+\i (00:00:27) alias Home hilight 
+\i (00:00:27) alias End dehilight 
+\i (00:00:27) alias Insert show element 
+\i (00:00:27) alias CHome 'rats net' 
+\i (00:00:27) alias CEnd 'unrats net' 
+\i (00:00:27) alias Up iy 1 
+\i (00:00:27) alias Down iy -1 
+\i (00:00:27) alias Right ix 1 
+\i (00:00:27) alias Left ix -1 
+\i (00:00:27) alias x pick 
+\i (00:00:27) alias X pick 
+\i (00:00:27) alias y pick 0 
+\i (00:00:27) alias Y pick 0 
+\i (00:00:27) alias ix ipick 
+\i (00:00:27) alias IX ipick 
+\i (00:00:27) alias iy ipick 0 
+\i (00:00:27) alias IY ipick 0 
+\i (00:00:27) alias ip polar 
+\i (00:00:27) alias env enved 
+\i (00:00:27) alias g 'define grid' 
+\i (00:00:27) funckey 1 move 
+\i (00:00:27) funckey 2 angle 90 
+\i (00:00:27) funckey 3 mirror 
+\i (00:00:27) alias ~S1 autoplc 
+\i (00:00:27) alias CAF1 replay f1 
+\i (00:00:27) alias CAF2 replay f2 
+\i (00:00:27) alias CAF3 replay f3 
+\i (00:00:27) alias CAF4 replay f4 
+\i (00:00:27) alias CAF5 replay f5 
+\i (00:00:27) alias CAF6 replay f6 
+\i (00:00:27) alias CAF7 replay f7 
+\i (00:00:27) alias CAF8 replay f8 
+\i (00:00:27) alias CAF9 replay f9 
+\i (00:00:27) alias CAF10 replay f10 
+\i (00:00:27) alias CAF11 replay f11 
+\i (00:00:27) alias CAF12 replay f12 
+\i (00:00:27) alias F2 'setlayer MyLayer1' 
+\i (00:00:27) alias F3 'setlayer MyLayer2' 
+\i (00:00:27) alias F4 'setlayer MyLayer3' 
+\i (00:00:27) alias F5 'setlayer MyLayer4' 
+\i (00:00:27) alias F6 'setlayer MyLayer5' 
+\i (00:00:27) alias F7 'setlayer MyLayer6' 
+\i (00:00:27) alias F8 'setlayer MyLayer7' 
+\i (00:00:27) alias F10 plctools 
+\i (00:00:27) alias F12 'property edit' 
+\i (00:00:27) alias SF2 'savelayer MyLayer1' 
+\i (00:00:27) alias SF3 'savelayer MyLayer2' 
+\i (00:00:27) alias SF4 'savelayer MyLayer3' 
+\i (00:00:27) alias SF5 'savelayer MyLayer4' 
+\i (00:00:27) alias SF6 'savelayer MyLayer5' 
+\i (00:00:27) alias SF7 'savelayer MyLayer6' 
+\i (00:00:27) alias SF8 'savelayer MyLayer7' 
+\i (00:00:27) alias SF11 fanoutbypackage 
+\i (00:00:27) alias CF11 packagetofanout 
+\i (00:00:27) alias CF12 'identify nets' 
+\i (00:00:27) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:00:27) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:00:27) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:00:27) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:00:27) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:00:27) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:00:27) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:00:27) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:00:27) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:00:27) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:00:27) set GLOBAL = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:27) set ALIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib 
+\i (00:00:27) set COMPLIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib 
+\i (00:00:27) set GLOBALPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:27) set ADSPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:00:27) set FORMPATH = . C:/Users/master/pcbenv/forms E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/forms 
+\i (00:00:27) set MENUPATH = . C:/Users/master/pcbenv/cuimenus E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/cuimenus 
+\i (00:00:27) set UNITS = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/units.dat 
+\i (00:00:27) set BMPPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/icons 
+\i (00:00:27) set RESOURCE = resource 
+\i (00:00:27) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/configure/prfedit 
+\e (00:00:27) CDSROOT: Variable not defined
+\e (00:00:27) Parse error in file D:/YepEda/YepChecker/env.scr, line 141
+\i (00:00:27) trapsize 1463
+\i (00:00:27) button wheel_up zoom in 1 
+\i (00:00:27) button wheel_down zoom out 1 
+\i (00:00:27) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:00:27) set no_dragpopup 
+\i (00:00:27) shapeedit 
+\i (00:00:32) refresh padstack 
+\i (00:00:33) setwindow form.rf_pad
+\i (00:00:33) FORM rf_pad execute  
+\t (00:00:33) Starting Refreshing padstacks...
+\t (00:00:33) Opening existing design...
+\i (00:00:34) setwindow pcb
+\i (00:00:34) trapsize 1463
+\i (00:00:34) trapsize 1499
+\i (00:00:34) trapsize 1463
+\i (00:00:34) trapsize 1463
+\i (00:00:48) refresh symbol 
+\i (00:00:50) setwindow form.upd_element
+\i (00:00:50) FORM upd_element tree  FLASH-6D2 'Shape and flash symbols' 
+\i (00:00:50) FORM upd_element tree 'MULTISEL YES' FLASH-6D2 'Shape and flash symbols' 
+\i (00:00:53) FORM upd_element refresh  
+\t (00:00:53) Starting Refresh Symbol...
+\t (00:00:54) Opening existing design...
+\i (00:00:54) setwindow pcb
+\i (00:00:54) trapsize 1463
+\i (00:00:54) trapsize 1499
+\i (00:00:54) trapsize 1463
+\i (00:00:54) trapsize 1463
+\i (00:00:57) setwindow form.upd_element
+\i (00:00:57) FORM upd_element close  
+\i (00:00:57) setwindow pcb
+\i (00:00:57) shapeedit 
+\i (00:00:58) save 
+\i (00:01:00) fillin yes 
+\t (00:01:01) Symbol 'ub482.psm' created.
+\i (00:01:01) shapeedit 
+\i (00:01:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:01:06) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged UB482
+\i (00:01:06) opencd E:/PCBLib/ORCAD/LIB/Psm/IP175G-M.dra 
+\t (00:01:06) Opening existing design...
+\i (00:01:06) trapsize 1787
+\d (00:01:06) Design opened: E:/PCBLib/ORCAD/LIB/Psm/IP175G-M.dra
+\i (00:01:06) shapeedit 
+\i (00:01:06) yepdesignermenuload 
+\i (00:01:07) replay D:/YepEda/YepChecker/env.scr 
+\i (00:01:07) alias ~E move 
+\i (00:01:07) funckey e move 
+\i (00:01:07) funckey E move 
+\i (00:01:07) alias ~R angle 90 
+\i (00:01:07) funckey ' ' angle 90 
+\i (00:01:07) alias ~F mirror 
+\i (00:01:07) funckey f mirror 
+\i (00:01:07) funckey F mirror 
+\i (00:01:07) alias ~N new 
+\i (00:01:07) alias ~O open 
+\i (00:01:07) alias ~S save 
+\w (00:01:07) alias ~S is marked read-only, not changed.
+\i (00:01:07) alias ~Z oops 
+\w (00:01:07) alias ~Z is marked read-only, not changed.
+\i (00:01:07) funckey z oops 
+\i (00:01:07) funckey Z oops 
+\i (00:01:07) alias ~A add connect 
+\i (00:01:07) funckey a add connect 
+\i (00:01:07) funckey A add connect 
+\i (00:01:07) alias ~Q slide 
+\i (00:01:07) funckey q slide 
+\i (00:01:07) funckey Q slide 
+\i (00:01:07) alias ~D reject 
+\i (00:01:07) alias ~W change 
+\i (00:01:07) funckey w change 
+\i (00:01:07) funckey W change 
+\i (00:01:07) alias ~@ toggle 
+\i (00:01:07) alias ~AC color 
+\i (00:01:07) alias ~G status 
+\i (00:01:07) alias ~AG status 
+\i (00:01:07) alias ~SQ 'slide;pop cut' 
+\i (00:01:07) alias ~SA 'pop singletrace' 
+\i (00:01:07) alias ~ASG 'drawing param' 
+\i (00:01:07) alias CInsert 'show measure' 
+\i (00:01:07) alias Pgup Zoom In 
+\i (00:01:07) alias Pgdown Zoom Out 
+\i (00:01:07) alias Esc Cancel 
+\i (00:01:07) alias Del Delete 
+\i (00:01:07) alias CDel 'delete;pop cut' 
+\i (00:01:07) alias SDel clinescut 
+\i (00:01:07) alias Home hilight 
+\i (00:01:07) alias End dehilight 
+\i (00:01:07) alias Insert show element 
+\i (00:01:07) alias CHome 'rats net' 
+\i (00:01:07) alias CEnd 'unrats net' 
+\i (00:01:07) alias Up iy 1 
+\i (00:01:07) alias Down iy -1 
+\i (00:01:07) alias Right ix 1 
+\i (00:01:07) alias Left ix -1 
+\i (00:01:07) alias x pick 
+\i (00:01:07) alias X pick 
+\i (00:01:07) alias y pick 0 
+\i (00:01:07) alias Y pick 0 
+\i (00:01:07) alias ix ipick 
+\i (00:01:07) alias IX ipick 
+\i (00:01:07) alias iy ipick 0 
+\i (00:01:07) alias IY ipick 0 
+\i (00:01:07) alias ip polar 
+\i (00:01:07) alias env enved 
+\i (00:01:07) alias g 'define grid' 
+\i (00:01:07) funckey 1 move 
+\i (00:01:07) funckey 2 angle 90 
+\i (00:01:07) funckey 3 mirror 
+\i (00:01:07) alias ~S1 autoplc 
+\i (00:01:07) alias CAF1 replay f1 
+\i (00:01:07) alias CAF2 replay f2 
+\i (00:01:07) alias CAF3 replay f3 
+\i (00:01:07) alias CAF4 replay f4 
+\i (00:01:07) alias CAF5 replay f5 
+\i (00:01:07) alias CAF6 replay f6 
+\i (00:01:07) alias CAF7 replay f7 
+\i (00:01:07) alias CAF8 replay f8 
+\i (00:01:07) alias CAF9 replay f9 
+\i (00:01:07) alias CAF10 replay f10 
+\i (00:01:07) alias CAF11 replay f11 
+\i (00:01:07) alias CAF12 replay f12 
+\i (00:01:07) alias F2 'setlayer MyLayer1' 
+\i (00:01:07) alias F3 'setlayer MyLayer2' 
+\i (00:01:07) alias F4 'setlayer MyLayer3' 
+\i (00:01:07) alias F5 'setlayer MyLayer4' 
+\i (00:01:07) alias F6 'setlayer MyLayer5' 
+\i (00:01:07) alias F7 'setlayer MyLayer6' 
+\i (00:01:07) alias F8 'setlayer MyLayer7' 
+\i (00:01:07) alias F10 plctools 
+\i (00:01:07) alias F12 'property edit' 
+\i (00:01:07) alias SF2 'savelayer MyLayer1' 
+\i (00:01:07) alias SF3 'savelayer MyLayer2' 
+\i (00:01:07) alias SF4 'savelayer MyLayer3' 
+\i (00:01:07) alias SF5 'savelayer MyLayer4' 
+\i (00:01:07) alias SF6 'savelayer MyLayer5' 
+\i (00:01:07) alias SF7 'savelayer MyLayer6' 
+\i (00:01:07) alias SF8 'savelayer MyLayer7' 
+\i (00:01:07) alias SF11 fanoutbypackage 
+\i (00:01:07) alias CF11 packagetofanout 
+\i (00:01:07) alias CF12 'identify nets' 
+\i (00:01:07) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:01:07) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:01:07) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:01:07) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:01:07) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:01:07) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:01:07) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:01:07) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:01:07) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:01:07) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:01:07) set GLOBAL = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:07) set ALIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib 
+\i (00:01:07) set COMPLIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib 
+\i (00:01:07) set GLOBALPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:07) set ADSPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:07) set FORMPATH = . C:/Users/master/pcbenv/forms E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/forms 
+\i (00:01:07) set MENUPATH = . C:/Users/master/pcbenv/cuimenus E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/cuimenus 
+\i (00:01:07) set UNITS = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/units.dat 
+\i (00:01:07) set BMPPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/icons 
+\i (00:01:07) set RESOURCE = resource 
+\i (00:01:07) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/configure/prfedit 
+\e (00:01:07) CDSROOT: Variable not defined
+\e (00:01:07) Parse error in file D:/YepEda/YepChecker/env.scr, line 141
+\i (00:01:07) trapsize 1787
+\i (00:01:07) button wheel_up zoom in 1 
+\i (00:01:07) button wheel_down zoom out 1 
+\i (00:01:07) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:01:07) set no_dragpopup 
+\i (00:01:07) shapeedit 
+\i (00:01:12) refresh symbol 
+\i (00:01:13) setwindow form.upd_element
+\i (00:01:13) FORM upd_element tree  FLASH-6D2 'Shape and flash symbols' 
+\i (00:01:13) FORM upd_element tree 'MULTISEL YES' FLASH-6D2 'Shape and flash symbols' 
+\i (00:01:14) FORM upd_element refresh  
+\t (00:01:14) Starting Refresh Symbol...
+\t (00:01:15) Opening existing design...
+\i (00:01:15) setwindow pcb
+\i (00:01:15) trapsize 1787
+\i (00:01:23) setwindow form.upd_element
+\i (00:01:23) FORM upd_element close  
+\i (00:01:23) setwindow pcb
+\i (00:01:23) shapeedit 
+\i (00:01:28) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:01:34) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "IP175G-M"
+\i (00:01:34) opencd E:/PCBLib/ORCAD/LIB/Psm/P900.dra 
+\e (00:01:34) Do you want to save the changes you made to E:/PCBLib/ORCAD/LIB/Psm/IP175G-M.dra?
+\i (00:01:37) fillin yes 
+\t (00:01:38) Symbol 'ip175g-m.psm' created.
+\t (00:01:38) Opening existing design...
+\i (00:01:38) trapsize 2173
+\d (00:01:38) Design opened: E:/PCBLib/ORCAD/LIB/Psm/P900.dra
+\i (00:01:38) shapeedit 
+\i (00:01:38) yepdesignermenuload 
+\i (00:01:39) replay D:/YepEda/YepChecker/env.scr 
+\i (00:01:39) alias ~E move 
+\i (00:01:39) funckey e move 
+\i (00:01:39) funckey E move 
+\i (00:01:39) alias ~R angle 90 
+\i (00:01:39) funckey ' ' angle 90 
+\i (00:01:39) alias ~F mirror 
+\i (00:01:39) funckey f mirror 
+\i (00:01:39) funckey F mirror 
+\i (00:01:39) alias ~N new 
+\i (00:01:39) alias ~O open 
+\i (00:01:39) alias ~S save 
+\w (00:01:39) alias ~S is marked read-only, not changed.
+\i (00:01:39) alias ~Z oops 
+\w (00:01:39) alias ~Z is marked read-only, not changed.
+\i (00:01:39) funckey z oops 
+\i (00:01:39) funckey Z oops 
+\i (00:01:39) alias ~A add connect 
+\i (00:01:39) funckey a add connect 
+\i (00:01:39) funckey A add connect 
+\i (00:01:39) alias ~Q slide 
+\i (00:01:39) funckey q slide 
+\i (00:01:39) funckey Q slide 
+\i (00:01:39) alias ~D reject 
+\i (00:01:39) alias ~W change 
+\i (00:01:39) funckey w change 
+\i (00:01:39) funckey W change 
+\i (00:01:39) alias ~@ toggle 
+\i (00:01:39) alias ~AC color 
+\i (00:01:39) alias ~G status 
+\i (00:01:39) alias ~AG status 
+\i (00:01:39) alias ~SQ 'slide;pop cut' 
+\i (00:01:39) alias ~SA 'pop singletrace' 
+\i (00:01:39) alias ~ASG 'drawing param' 
+\i (00:01:39) alias CInsert 'show measure' 
+\i (00:01:39) alias Pgup Zoom In 
+\i (00:01:39) alias Pgdown Zoom Out 
+\i (00:01:39) alias Esc Cancel 
+\i (00:01:39) alias Del Delete 
+\i (00:01:39) alias CDel 'delete;pop cut' 
+\i (00:01:39) alias SDel clinescut 
+\i (00:01:39) alias Home hilight 
+\i (00:01:39) alias End dehilight 
+\i (00:01:39) alias Insert show element 
+\i (00:01:39) alias CHome 'rats net' 
+\i (00:01:39) alias CEnd 'unrats net' 
+\i (00:01:39) alias Up iy 1 
+\i (00:01:39) alias Down iy -1 
+\i (00:01:39) alias Right ix 1 
+\i (00:01:39) alias Left ix -1 
+\i (00:01:39) alias x pick 
+\i (00:01:39) alias X pick 
+\i (00:01:39) alias y pick 0 
+\i (00:01:39) alias Y pick 0 
+\i (00:01:39) alias ix ipick 
+\i (00:01:39) alias IX ipick 
+\i (00:01:39) alias iy ipick 0 
+\i (00:01:39) alias IY ipick 0 
+\i (00:01:39) alias ip polar 
+\i (00:01:39) alias env enved 
+\i (00:01:39) alias g 'define grid' 
+\i (00:01:39) funckey 1 move 
+\i (00:01:39) funckey 2 angle 90 
+\i (00:01:39) funckey 3 mirror 
+\i (00:01:39) alias ~S1 autoplc 
+\i (00:01:39) alias CAF1 replay f1 
+\i (00:01:39) alias CAF2 replay f2 
+\i (00:01:39) alias CAF3 replay f3 
+\i (00:01:39) alias CAF4 replay f4 
+\i (00:01:39) alias CAF5 replay f5 
+\i (00:01:39) alias CAF6 replay f6 
+\i (00:01:39) alias CAF7 replay f7 
+\i (00:01:39) alias CAF8 replay f8 
+\i (00:01:39) alias CAF9 replay f9 
+\i (00:01:39) alias CAF10 replay f10 
+\i (00:01:39) alias CAF11 replay f11 
+\i (00:01:39) alias CAF12 replay f12 
+\i (00:01:39) alias F2 'setlayer MyLayer1' 
+\i (00:01:39) alias F3 'setlayer MyLayer2' 
+\i (00:01:39) alias F4 'setlayer MyLayer3' 
+\i (00:01:39) alias F5 'setlayer MyLayer4' 
+\i (00:01:39) alias F6 'setlayer MyLayer5' 
+\i (00:01:39) alias F7 'setlayer MyLayer6' 
+\i (00:01:39) alias F8 'setlayer MyLayer7' 
+\i (00:01:39) alias F10 plctools 
+\i (00:01:39) alias F12 'property edit' 
+\i (00:01:39) alias SF2 'savelayer MyLayer1' 
+\i (00:01:39) alias SF3 'savelayer MyLayer2' 
+\i (00:01:39) alias SF4 'savelayer MyLayer3' 
+\i (00:01:39) alias SF5 'savelayer MyLayer4' 
+\i (00:01:39) alias SF6 'savelayer MyLayer5' 
+\i (00:01:39) alias SF7 'savelayer MyLayer6' 
+\i (00:01:39) alias SF8 'savelayer MyLayer7' 
+\i (00:01:39) alias SF11 fanoutbypackage 
+\i (00:01:39) alias CF11 packagetofanout 
+\i (00:01:39) alias CF12 'identify nets' 
+\i (00:01:39) funckey fn 'setwindow form.find;FORM find all_off;FORM find nets YES;setwindow pcb' 
+\i (00:01:39) funckey fs 'setwindow form.find;FORM find all_off;FORM find symbols YES;setwindow pcb' 
+\i (00:01:39) funckey fv 'setwindow form.find;FORM find all_off;FORM find vias YES;setwindow pcb' 
+\i (00:01:39) funckey fp 'setwindow form.find;FORM find all_off;FORM find pins YES;setwindow pcb' 
+\i (00:01:39) funckey fc 'setwindow form.find;FORM find all_off;FORM find clines YES;setwindow pcb' 
+\i (00:01:39) funckey fl 'setwindow form.find;FORM find all_off;FORM find lines YES;setwindow pcb' 
+\i (00:01:39) funckey fh 'setwindow form.find;FORM find all_off;FORM find shapes YES;setwindow pcb' 
+\i (00:01:39) funckey fd 'setwindow form.find;FORM find all_off;FORM find drc_errors YES;setwindow pcb' 
+\i (00:01:39) funckey ft 'setwindow form.find;FORM find all_off;FORM find text YES;setwindow pcb' 
+\i (00:01:39) funckey ff 'setwindow form.find;FORM find all_off;setwindow pcb' 
+\i (00:01:39) set GLOBAL = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:39) set ALIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/pcb_lib 
+\i (00:01:39) set COMPLIBPATH = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/allegrolib 
+\i (00:01:39) set GLOBALPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:39) set ADSPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text 
+\i (00:01:39) set FORMPATH = . C:/Users/master/pcbenv/forms E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/forms 
+\i (00:01:39) set MENUPATH = . C:/Users/master/pcbenv/cuimenus E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/cuimenus 
+\i (00:01:39) set UNITS = E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/units.dat 
+\i (00:01:39) set BMPPATH = . E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/text/icons 
+\i (00:01:39) set RESOURCE = resource 
+\i (00:01:39) set PRFEDITPATH = . configure/prfedit C:/Users/master/pcbenv/configure/prfedit E:/Cadence/Cadence/Cadence_SPB_17.4-2019/share/pcb/configure/prfedit 
+\e (00:01:39) CDSROOT: Variable not defined
+\e (00:01:39) Parse error in file D:/YepEda/YepChecker/env.scr, line 141
+\i (00:01:39) trapsize 2173
+\i (00:01:39) button wheel_up zoom in 1 
+\i (00:01:39) button wheel_down zoom out 1 
+\i (00:01:39) strokefile D:/YepEda/YepChecker/lib/allegro.strokes 
+\i (00:01:39) set no_dragpopup 
+\i (00:01:39) shapeedit 
+\i (00:01:44) refresh padstack 
+\i (00:01:47) setwindow form.rf_pad
+\i (00:01:47) FORM rf_pad cancel  
+\i (00:01:47) setwindow pcb
+\i (00:01:47) shapeedit 
+\i (00:01:50) refresh symbol 
+\i (00:01:51) setwindow form.upd_element
+\i (00:01:51) FORM upd_element tree  FLASH-6D2 'Shape and flash symbols' 
+\i (00:01:52) FORM upd_element tree 'MULTISEL YES' FLASH-6D2 'Shape and flash symbols' 
+\i (00:01:54) FORM upd_element refresh  
+\t (00:01:54) Starting Refresh Symbol...
+\t (00:01:54) Opening existing design...
+\i (00:01:55) setwindow pcb
+\i (00:01:55) trapsize 2173
+\i (00:01:57) setwindow form.upd_element
+\i (00:01:57) FORM upd_element close  
+\i (00:01:57) setwindow pcb
+\i (00:01:57) shapeedit 
+\i (00:01:59) save 
+\i (00:02:00) fillin yes 
+\t (00:02:00) Symbol 'p900.psm' created.
+\i (00:02:00) shapeedit 
+\i (00:02:01) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "Start Page"
+\i (00:02:02) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged P900
+\i (00:02:02) opencd E:/Allegro/GnssBoard/MAIN2022/PCB/GPSZB.brd 
+\t (00:02:03) Opening existing design...
+\i (00:02:04) fillin yes 
+\i (00:02:04) trapsize 6726
+\i (00:02:05) trapsize 6893
+\i (00:02:05) trapsize 7950
+\t (00:02:05)     Journal end - Wed Jul  7 20:23:43 2021
